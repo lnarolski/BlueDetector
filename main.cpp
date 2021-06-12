@@ -78,7 +78,7 @@ void BluetoothDevicesPing(bool pingSuccess) // Action when Bluetooth device(s) i
 	std::async(SendDetectionResultToDomoticz, pingSuccess);
 #endif // DOMOTICZ
 
-	static bool previousPingSuccessValue = true;
+	static bool previousPingSuccessValue = false;
 	if (pingSuccess != previousPingSuccessValue)
 	{
 #ifdef V4l2RTSPSERVER
