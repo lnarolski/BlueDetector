@@ -3,7 +3,7 @@
 #define V4l2RTSPSERVER // Turn on/off V4l2RTSPSERVER based on detection results
 
 #define TIME_BETWEEN_PINGS_SEC 30
-#define MAX_PING_ATTEMPTS 5
+#define MAX_PING_ATTEMPTS 7
 
 #include <iostream>
 #include <fstream>
